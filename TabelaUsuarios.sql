@@ -1,0 +1,1 @@
+CREATE TABLE `gamdb`.`usuarios` ( `ID` INT(255) NOT NULL AUTO_INCREMENT , `Usuario` VARCHAR(255) NOT NULL , `Senha` VARCHAR(255) NOT NULL , PRIMARY KEY (`ID`), UNIQUE `ID` (`Usuario`(255))) ENGINE = InnoDB;
